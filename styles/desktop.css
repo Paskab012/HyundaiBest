@@ -264,7 +264,7 @@ small {
   display: none;
 }
 
-.show-more-courses {
+.open-details {
   display: block;
   margin: 0 auto;
   background: none;
@@ -309,7 +309,6 @@ small {
 }
 
 .image-container {
-  background-image: url('../images/wallpaper.jpg');
   background-size: 40% 40%;
   background-repeat: no-repeat;
   background-position-x: 0;
@@ -381,7 +380,7 @@ small {
   background-color: white;
 }
 
-.desktop-partner {
+.marks {
   display: none;
 }
 
@@ -390,7 +389,7 @@ small {
   margin-top: 60px;
 }
 
-.partner p {
+.marks p {
   text-align: center;
   color: gray;
   font-size: 20px;
@@ -428,7 +427,7 @@ footer div:last-child p {
   color: white;
 }
 
-.partner {
+.marks {
   background-color: rgb(46, 46, 46);
   min-height: 140px;
   padding-top: 15px;
@@ -436,7 +435,7 @@ footer div:last-child p {
   font-family: 'Lato', sans-serif;
 }
 
-.partner ul {
+.marks ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -445,7 +444,7 @@ footer div:last-child p {
   margin-top: 40px;
 }
 
-.partner ul li {
+.marks ul li {
   font-size: 20px;
   margin-left: 30px;
   margin-right: 30px;

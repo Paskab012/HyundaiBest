@@ -501,7 +501,7 @@ ul .title {
   font-size: 4.5vw;
 }
 
-.partner p {
+.marks p {
   text-align: center;
   color: white;
   font-family: 'Lato', sans-serif;
@@ -524,19 +524,19 @@ footer {
   font-family: 'Lato', sans-serif;
 }
 
-.partner {
+.marks {
   background-color: rgb(68, 66, 66);
   min-height: 140px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.partner img {
+.marks img {
   width: 60px;
   height: 20px;
 }
 
-.partner ul {
+.marks ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -544,7 +544,7 @@ footer {
   padding: 0;
 }
 
-.partner ul li {
+.marks ul li {
   font-size: 20px;
   margin: 10px 20px;
 }

@@ -2,7 +2,7 @@
 /* eslint-disable operator-linebreak */
 const carsModels = [
   {
-    img: './images/user1.jpg',
+    img: './images/car9.jpg',
     alt: 'Tutor: hyundai cars',
     Name: 'Hyundai Fortuna',
     skill: '4 wheel drive, V6',
@@ -11,7 +11,7 @@ const carsModels = [
      is ability to run fast with incredible speed changes`,
   },
   {
-    img: './images/user2.',
+    img: './images/car10.jpg',
     alt: 'Tutor: hyundai cars',
     Name: 'Hyundai Tucson',
     skill: 'Fast running engine',
@@ -22,7 +22,7 @@ const carsModels = [
     its superior combination of quality and value in its class.`,
   },
   {
-    img: './images/user1.jpg',
+    img: './images/car3.jpg',
     alt: 'Tutor: hyundai cars ',
     Name: 'Hyundai Santa Cruz',
     skill: 'V8 engine, super powered',
@@ -30,7 +30,7 @@ const carsModels = [
     If you're searching for comfort and utility as well as power and great tech in a small truck`,
   },
   {
-    img: './images/user1.jpg',
+    img: './images/car4.jpg',
     alt: 'Tutor: hyundai cars ',
     Name: 'Hyundai Santa Cruz',
     skill: 'V8 engine, super powered',
@@ -38,7 +38,7 @@ const carsModels = [
     If you're searching for comfort and utility as well as power and great tech in a small truck`,
   },
   {
-    img: './images/user1.jpg',
+    img: './images/car6.jpg',
     alt: 'Tutor: hyundai cars ',
     Name: 'Hyundai Santa Cruz',
     skill: 'V8 engine, super powered',
@@ -46,7 +46,7 @@ const carsModels = [
     If you're searching for comfort and utility as well as power and great tech in a small truck`,
   },
   {
-    img: './images/user1.jpg',
+    img: './images/car7.jpg',
     alt: 'Tutor: hyundai cars ',
     Name: 'Hyundai Santa Cruz',
     skill: 'V8 engine, super powered',
@@ -74,7 +74,7 @@ function showEmployees() {
     }" class="cars-descr">
       </div>
       <div class="cars-info">
-        <p class="cars-descr-2">${carsModels[i].tutorName}</p>
+        <p class="cars-descr-2">${carsModels[i].Name}</p>
         <p class="cars-descr-3">${carsModels[i].skill}</p>
         <p class="cars-descr-4">${carsModels[i].description}</p>
     </div>`;
