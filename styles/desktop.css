@@ -83,6 +83,15 @@ header nav a {
   border-radius: 20%;
 }
 
+.top_nav1 img {
+  padding: 8px;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  background-color: #ec5242;
+  border-radius: 20%;
+}
+
 .top_nav ul {
   list-style-type: none;
   display: flex;
@@ -196,18 +205,20 @@ small {
   margin-top: -30px;
   font-family: 'Lato', sans-serif;
 }
-/************* Main Program **************/
 
 .my-team {
-  background-image: linear-gradient(rgb(39, 42, 49), rgb(39, 42, 49));
+  background-image: linear-gradient(rgb(53, 54, 54), rgba(192, 164, 164, 0.87));
   background-repeat: repeat;
   background-size: 20px;
-  border: solid;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .my-team > p {
   text-align: center;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: bold;
   color: #d3d3d3;
   font-family: 'Lato', sans-serif;
@@ -228,12 +239,19 @@ small {
   display: flex;
 }
 
-.flex1,
-.flex2,
-.flex3 {
-  margin: 4px;
-  font-size: 14px;
-  font-weight: 600;
+.team li {
+  height: 350px;
+  border: #f1f1f160 1px solid;
+  margin: 20px;
+  background: #272a31;
+  cursor: pointer;
+}
+
+.team img {
+  object-fit: contain;
+  width: 100%;
+  height: 50%;
+  border-radius: 8px;
 }
 
 .flex1 {
@@ -260,30 +278,46 @@ small {
   font-family: 'Lato', sans-serif;
 }
 
-.join-gst {
+.orderNow {
   display: none;
 }
 
 .open-details {
-  display: block;
-  margin: 0 auto;
-  background: none;
+  background-color: #ec5242;
   color: white;
-  border: none;
   text-decoration: underline;
-  margin-bottom: 60px;
   font-family: 'Lato', sans-serif;
+  width: 250px;
+  margin: 0 auto;
+  font-size: 16px;
+  text-decoration: none;
+  border: none;
+  padding: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
 }
 
-/******************* Our Tutors *******************/
+.open-details:hover {
+  background-color: #272a31;
+  padding: 16px;
+}
 
 .cars {
-  padding-left: 6%;
-  padding-right: 6%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #ec5242;
 }
 
 .cars-title {
   text-align: center;
+  font-size: 22px;
   font-weight: bold;
   color: #ec5242;
   font-family: 'Lato', sans-serif;
@@ -308,12 +342,10 @@ small {
   object-position: bottom;
 }
 
-.image-container {
-  background-size: 40% 40%;
-  background-repeat: no-repeat;
-  background-position-x: 0;
-  background-position-y: 0;
-  padding: 0;
+.image-container img {
+  width: 100%;
+  border-top: 3px solid #ec5242;
+  border-left: 3px solid #ec5242;
 }
 
 .cars-descr-2 {
@@ -321,15 +353,14 @@ small {
   font-weight: bold;
   word-break: break-all;
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .cars-descr-3 {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   font-style: italic;
   color: #ec5242;
-  font-weight: bold;
   word-break: break-all;
   font-family: 'Lato', sans-serif;
   line-height: 20px;
@@ -337,11 +368,10 @@ small {
 
 .cars-descr-4 {
   word-break: break-all;
-  margin: 0;
+  margin-top: 10px;
   font-family: 'Lato', sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 20px;
-  font-weight: bold;
 }
 
 .cars-profiles {
@@ -366,8 +396,9 @@ small {
 }
 
 .cars-profiles p {
-  margin-left: 10px;
-  padding: 3px;
+  margin-left: 20px;
+  display: flex;
+  margin-right: 10px;
 }
 
 .specifications {
@@ -376,23 +407,22 @@ small {
 
 /********************** Footer ********************/
 
-.about-footer {
-  background-color: white;
-}
-
 .marks {
-  display: none;
+  display: flex;
+  flex-direction: column;
 }
 
-.desktop-footer {
-  background-color: rgb(46, 46, 46);
-  margin-top: 60px;
+.marks ul li img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
 }
 
 .marks p {
   text-align: center;
-  color: gray;
-  font-size: 20px;
+  color: #ec5242;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .paragraphe > p {
@@ -428,7 +458,7 @@ footer div:last-child p {
 }
 
 .marks {
-  background-color: rgb(46, 46, 46);
+  background-color: rgb(49, 48, 48);
   min-height: 140px;
   padding-top: 15px;
   padding-bottom: 15px;
