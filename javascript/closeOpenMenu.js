@@ -1,5 +1,5 @@
 const body = document.querySelector('body');
-const menu = document.querySelector('.menu-icon');
+const menu = document.querySelector('.menu-bars');
 
 menu.addEventListener('click', () => {
   body.classList.add('menu');

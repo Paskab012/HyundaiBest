@@ -81,7 +81,7 @@ function showEmployees() {
   }
 
   section.innerHTML +=
-    '<button type="button" class="specifications">Want others? <i class="fas fa-angle-down"></i></button>';
+    '<button type="button" class="specifications">Show more <i class="fas fa-angle-down"></i></button>';
 }
 
 window.addEventListener('load', showEmployees);
