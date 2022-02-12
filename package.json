@@ -1,7 +1,7 @@
 {
-  "name": "hyundaiabest",
+  "name": "HyundaiaBest",
   "version": "1.0.0",
-  "description": "Capstone project done in Microverse for ending Module1.",
+  "description": "> Capstone Project desktop and mobile versions.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/KABIKA681/HyundaiaBest.git"
   },
+  "keywords": [],
   "author": "Jaman Dedy, Gilles Kagarama <jeandedieuam@gmail.com>",
   "license": "ISC",
   "bugs": {
@@ -21,7 +22,6 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.25.4",
-    "hint": "^6.1.9",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",

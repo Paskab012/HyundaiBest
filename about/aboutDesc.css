@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('http://fonts.cdnfonts.com/css/coco-gothic');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato:wght@100;300;400;900&display=swap');
-/******************* Header *********************/
 
 * {
   box-sizing: border-box;
@@ -102,6 +101,10 @@ header nav a {
   margin-left: 60px;
 }
 
+.brand a {
+  width: 70%;
+}
+
 .top_nav ul li a {
   color: #272a31;
   font-size: 15px;
@@ -136,7 +139,8 @@ main {
 }
 
 .paragraphe {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(204, 204, 204, 0.52),
       rgba(95, 94, 94, 0.637)
     ),
@@ -168,7 +172,7 @@ main {
 
 .paragraphe p {
   padding: 15px;
-  color: #ffffff;
+  color: #fff;
   border: 2px solid rgba(223, 223, 223, 0.966);
   font-size: 20px;
   line-height: 30px;
@@ -205,7 +209,6 @@ h4 {
 small {
   font-size: 20px;
   color: #272a31;
-  margin-top: -30px;
   font-family: 'Lato', sans-serif;
   text-align: center;
   margin-top: 20px;
@@ -219,7 +222,8 @@ small {
   flex-direction: column;
   justify-content: center;
   padding-bottom: 40px;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(13, 20, 39, 0.876),
       rgba(18, 22, 39, 0.972)
     ),
@@ -230,7 +234,7 @@ small {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
-  color: #ffffff;
+  color: #fff;
   font-family: 'Lato', sans-serif;
 }
 
@@ -262,8 +266,29 @@ small {
   color: white;
 }
 
-.brand a {
-  width: 70%;
+.image-container img {
+  width: 100%;
+  border-top: 3px solid #ec5242;
+  border-left: 3px solid #ec5242;
+}
+
+.card2 img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  display: block;
+}
+
+.card1 img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  display: block;
+}
+
+.logo img {
+  max-width: 40%;
+  height: auto;
 }
 
 .brand a img {
@@ -309,12 +334,6 @@ small {
   padding-top: 12px;
   object-fit: cover;
   object-position: bottom;
-}
-
-.image-container img {
-  width: 100%;
-  border-top: 3px solid #ec5242;
-  border-left: 3px solid #ec5242;
 }
 
 .cars-descr-2 {
@@ -374,11 +393,6 @@ small {
   display: none;
 }
 
-.marks {
-  display: flex;
-  flex-direction: column;
-}
-
 .marks ul li img {
   width: 70px;
   height: 70px;
@@ -411,6 +425,10 @@ small {
   padding: 0 65px;
 }
 
+.myFooter p {
+  width: 60%;
+}
+
 footer div:last-child p {
   margin-left: 100px;
   font-family: 'Lato', sans-serif;
@@ -422,6 +440,8 @@ footer div:last-child p {
   padding-top: 15px;
   padding-bottom: 15px;
   font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .marks ul {
@@ -439,7 +459,7 @@ footer div:last-child p {
   margin-right: 30px;
 }
 
-footer div:last-child {
+.footer div:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -500,11 +520,6 @@ footer div:last-child {
   margin-bottom: 50px;
 }
 
-.logo img {
-  max-width: 40%;
-  height: auto;
-}
-
 .testimonies {
   background-color: white;
   padding: 20px 20px 20px 150px;
@@ -542,13 +557,6 @@ footer div:last-child {
   overflow: hidden;
 }
 
-.card1 img {
-  width: 100%;
-  height: 100%;
-  opacity: 0.3;
-  display: block;
-}
-
 .card2 {
   background-color: rgb(219, 110, 90);
   width: 100%;
@@ -557,14 +565,6 @@ footer div:last-child {
   margin-top: 0;
   position: relative;
   overflow: hidden;
-}
-
-.card2 img {
-  width: 100%;
-  height: 100%;
-  opacity: 0.3;
-
-  display: block;
 }
 
 .year {
@@ -593,10 +593,6 @@ footer div:last-child {
   margin-top: 10px;
   width: 70%;
   height: 50px;
-}
-
-.myFooter p {
-  width: 60%;
 }
 
 .myFooter .brand a img {

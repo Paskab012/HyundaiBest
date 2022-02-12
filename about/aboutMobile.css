@@ -43,6 +43,10 @@ header {
   margin: 10px;
   min-height: 90px;
   background-color: rgba(255, 255, 255, 0.5);
+  background-color: #fff;
+  border: none;
+  box-shadow: 1px 1px 2px 0 #6c6f74;
+  border-radius: 5px;
 }
 
 .menu-list li {
@@ -91,7 +95,8 @@ header {
 }
 
 .paragraphe {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(242, 242, 242, 0.995),
       rgba(0, 0, 0, 0.276)
     ),
@@ -111,6 +116,39 @@ header {
 
 .brand a {
   width: 100%;
+}
+
+.team img {
+  object-fit: cover;
+  width: 20%;
+  height: 90px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 1px;
+}
+
+.logo img {
+  max-width: 30%;
+  height: auto;
+}
+
+.card1 img {
+  width: 100%;
+  opacity: 0.3;
+  display: block;
+  height: 100%;
+}
+
+.card2 img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  display: block;
+}
+
+.marks img {
+  width: 100%;
+  height: 80px;
+  object-fit: contain;
 }
 
 .brand a img {
@@ -161,6 +199,7 @@ small {
   padding: 10px;
   text-align: center;
 }
+
 .paragraphe p {
   padding: 10px;
   color: #272a31;
@@ -174,12 +213,12 @@ small {
 }
 
 .my-team {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(16, 14, 34, 0.886),
       rgba(12, 14, 38, 0.959)
     ),
     url(../images/main-bg.png);
-
   background-repeat: repeat;
   background-size: 30px;
   margin-top: 20px;
@@ -209,25 +248,10 @@ footer hr,
   padding: 0;
 }
 
-.team li {
-  background-color: #ffffff;
-  border: none;
-  box-shadow: 1px 1px 2px 0px#6c6f74;
-  border-radius: 5px;
-}
-
-.team img {
-  object-fit: cover;
-  width: 20%;
-  height: 90px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px 1px;
-}
-
-ul .title {
+.title {
+  min-width: 25%;
+  overflow: hidden;
   color: #ec5242;
-  font-weight: bold;
-  width: 25%;
 }
 
 .flex1,
@@ -242,12 +266,6 @@ ul .title {
 .flex1 li {
   width: 48px;
   height: 48px;
-  color: #ec5242;
-}
-
-.title {
-  min-width: 25%;
-  overflow: hidden;
   color: #ec5242;
 }
 
@@ -363,18 +381,6 @@ ul .title {
   background-color: #e6e4e4;
 }
 
-.paragraphe {
-  background-color: #e6e4e4;
-}
-
-.paragraphe h1 {
-  color: #ec5252;
-  font-size: 40px;
-  font-family: 'Archivo Black', sans-serif;
-  padding: 40px 20px 20px 20px;
-  margin-top: 0;
-}
-
 .paragraphe > p {
   border: 2px solid gray;
   padding: 15px;
@@ -413,11 +419,6 @@ ul .title {
   padding: 10px;
 }
 
-.logo img {
-  max-width: 30%;
-  height: auto;
-}
-
 .testimonies-cards {
   width: 90%;
   margin: 0 auto;
@@ -431,26 +432,12 @@ ul .title {
   padding: 0;
 }
 
-.card1 img {
-  width: 100%;
-  opacity: 0.3;
-  display: block;
-  height: 100%;
-}
-
 .card2 {
   margin-top: 5%;
   background-color: rgb(219, 110, 90);
   width: 100%;
   position: relative;
   overflow: hidden;
-}
-
-.card2 img {
-  width: 100%;
-  height: 100%;
-  opacity: 0.3;
-  display: block;
 }
 
 .marks p {
@@ -470,12 +457,6 @@ footer {
   min-height: 140px;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.marks img {
-  width: 100%;
-  height: 80px;
-  object-fit: contain;
 }
 
 .marks ul {
