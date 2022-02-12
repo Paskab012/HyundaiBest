@@ -139,8 +139,7 @@ main {
 }
 
 .paragraphe {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba(204, 204, 204, 0.52),
       rgba(95, 94, 94, 0.637)
     ),
@@ -222,8 +221,7 @@ small {
   flex-direction: column;
   justify-content: center;
   padding-bottom: 40px;
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba(13, 20, 39, 0.876),
       rgba(18, 22, 39, 0.972)
     ),
@@ -464,6 +462,11 @@ footer div:last-child p {
   justify-content: center;
   align-items: center;
   height: 150px;
+}
+
+.footer {
+  background-color: #272727;
+  color: white;
 }
 
 .footer-logo {
