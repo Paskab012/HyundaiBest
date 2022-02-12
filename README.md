@@ -19,7 +19,7 @@ Simple website design made by the use of HTML, CSS and Javascript for completion
 
 ## Live Demo
 
-[Live Demo](https://elerqsousy.github.io/musical-concert-page/) deployed on github pages.
+[Live Demo](https://kabika681.github.io/HyundaiBest/index.html)
 
 ## Video Description
 
