@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('http://fonts.cdnfonts.com/css/coco-gothic');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato:wght@100;300;400;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.h_mobile {
+  display: none;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  margin-top: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header nav a {
+  color: #272a31;
+}
+
+.top_icons {
+  width: 100%;
+  padding: 0;
+  background-color: rgb(62, 62, 62);
+}
+
+.top_icons ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding-right: 155px;
+}
+
+.team li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 90px;
+  width: 40%;
+  padding: 20px;
+  height: 350px;
+  border: #f1f1f160 1px solid;
+  margin: 20px;
+  background: #272a31;
+  cursor: pointer;
+}
+
+.top_icons ul li {
+  margin: 5px 10px 5px 10px;
+  color: white;
+}
+
+.top_nav {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.top_nav img {
+  padding: 8px;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  background-color: #ec5242;
+  border-radius: 20%;
+}
+
+.top_nav1 img {
+  padding: 8px;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  background-color: #ec5242;
+  border-radius: 20%;
+}
+
+.top_nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top_nav ul li {
+  margin-left: 60px;
+}
+
+.top_nav ul li a {
+  color: #272a31;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+.top_nav ul .login {
+  background-color: #e74d3c;
+  padding: 5px 8px 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.top_nav ul .login:hover {
+  background-color: #f07264;
+}
+
+.top_nav ul .login a {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.top_nav ul .login a span {
+  color: #272727;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+main {
+  margin-top: 80px;
+}
+
+.paragraphe {
+  background-image:
+    linear-gradient(
+      rgb(214, 214, 214),
+      rgba(224, 224, 224, 0.555)
+    ),
+    url(../images/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 60px 150px 80px 150px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.paragraphe h1 {
+  color: rgb(236, 82, 66);
+  font-size: 62px;
+  font-family: 'Archivo Black', sans-serif;
+  width: 70%;
+  background-image: url(../images/fire.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -20px;
+}
+
+.paragraphe p {
+  padding: 15px;
+  color: #272a31;
+  border: 2px solid rgba(223, 223, 223, 0.966);
+  font-size: 20px;
+  line-height: 30px;
+  width: 70%;
+  font-family: 'Lato', sans-serif;
+  margin-top: -35px;
+}
+
+.paragraphe_title {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 4.5%;
+  padding-bottom: 8%;
+}
+
+h3 {
+  font-size: 24px;
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+}
+
+h4 {
+  font-size: 28px;
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+}
+
+small {
+  font-size: 20px;
+  color: #272a31;
+  margin-top: -30px;
+  font-family: 'Lato', sans-serif;
+}
+
+.my-team {
+  background-image: linear-gradient(rgb(53, 54, 54), rgba(192, 164, 164, 0.87));
+  background-repeat: repeat;
+  background-size: 20px;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.my-team > p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #d3d3d3;
+  font-family: 'Lato', sans-serif;
+}
+
+.my-team hr,
+.tutors hr,
+.partner hr,
+.testimonies hr,
+.logo-descript hr {
+  width: 40px;
+  border: 1px solid #ec5242;
+}
+
+.team {
+  list-style-type: none;
+  padding: 20px 100px 30px 100px;
+  display: flex;
+}
+
+.team img {
+  object-fit: contain;
+  width: 100%;
+  height: 50%;
+  border-radius: 8px;
+}
+
+.flex1 {
+  width: 48px;
+  height: 48px;
+}
+
+.flex2 {
+  min-width: 25%;
+  overflow: hidden;
+  color: #ec5242;
+  margin-top: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.flex3 {
+  min-width: 50%;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 20px;
+  color: white;
+  font-size: 11px;
+  font-family: 'Lato', sans-serif;
+}
+
+.orderNow {
+  display: none;
+}
+
+.open-details {
+  background-color: #ec5242;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  width: 250px;
+  margin: 0 auto;
+  font-size: 16px;
+  text-decoration: none;
+  border: none;
+  padding: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.open-details:hover {
+  background-color: #272a31;
+  padding: 16px;
+}
+
+.cars {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #ec5242;
+}
+
+.cars-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+}
+
+.all-cars {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5%;
+  grid-column-gap: 10px;
+  grid-row-gap: 60px;
+  font-family: 'Lato', sans-serif;
+}
+
+.cars-descr {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-left: 12px;
+  padding-top: 12px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.image-container img {
+  width: 100%;
+  border-top: 3px solid #ec5242;
+  border-left: 3px solid #ec5242;
+}
+
+.cars-descr-2 {
+  margin: 0;
+  font-weight: bold;
+  word-break: break-all;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+.cars-descr-3 {
+  margin: 0;
+  font-size: 14px;
+  font-style: italic;
+  color: #ec5242;
+  word-break: break-all;
+  font-family: 'Lato', sans-serif;
+  line-height: 20px;
+}
+
+.cars-descr-4 {
+  word-break: break-all;
+  margin-top: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.cars-profiles {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.cars-info::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.cars-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  float: right;
+  clear: both;
+  padding-top: 5px;
+}
+
+.cars-profiles p {
+  margin-left: 20px;
+  display: flex;
+  margin-right: 10px;
+}
+
+.specifications {
+  display: none;
+}
+
+.logo img {
+  max-width: 40%;
+  height: auto;
+}
+
+.card2 img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  display: block;
+}
+
+.card1 img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  display: block;
+}
+
+.marks ul li img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.marks p {
+  text-align: center;
+  color: #ec5242;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.paragraphe > p {
+  border: 2px solid gray;
+  padding: 15px;
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
+
+.contact-us p {
+  padding: 0 15px;
+  line-height: 32px;
+  font-family: 'Lato', sans-serif;
+}
+
+.logo-descript p {
+  padding: 0 65px;
+}
+
+footer div:last-child p {
+  margin-left: 100px;
+  font-family: 'Lato', sans-serif;
+}
+
+.desktop-footer div:last-child p {
+  color: rgb(62, 62, 62);
+}
+
+.about-footer div:last-child p {
+  color: white;
+}
+
+.marks {
+  background-color: rgb(49, 48, 48);
+  min-height: 140px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.marks ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.marks ul li {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+footer div:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.footer-logo {
+  display: block;
+  width: 68px;
+  height: 68px;
+  margin-right: 100px;
+}
+
+/************************ About Section ************************/
+
+.body {
+  background-color: #e6e4e4;
+}
+
+.description {
+  background-color: #e6e4e4;
+  padding: 20px 20px 20px 150px;
+  text-align: center;
+}
+
+.description h1 {
+  color: orangered;
+  font-size: 50px;
+  font-weight: 400;
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.contact-us {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.about-logo {
+  background-color: white;
+  padding-left: 150px;
+}
+
+.logo-descript {
+  margin: 0 auto;
+  width: 70%;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.logo {
+  margin: 0 auto;
+  width: 40%;
+  border: 1px solid rgb(179, 177, 177);
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.testimonies {
+  background-color: white;
+  padding: 20px 20px 20px 150px;
+}
+
+.testimonies-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.testimonies-intro {
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  width: 70%;
+  padding: 0 100px;
+}
+
+.testimonies-cards {
+  margin-left: 15%;
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.card1 {
+  background-color: rgb(219, 110, 90);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+.card2 {
+  background-color: rgb(219, 110, 90);
+  width: 100%;
+  height: 100%;
+  margin-left: 2%;
+  margin-top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.year {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  right: 25%;
+  left: 25%;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.8vw;
+}
+
+.statistics {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  right: 25%;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2vw;
+}
