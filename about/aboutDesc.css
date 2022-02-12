@@ -453,8 +453,6 @@ footer div:last-child {
   margin-right: 100px;
 }
 
-/************************ About Section ************************/
-
 .body {
   background-color: #e6e4e4;
 }
@@ -589,4 +587,23 @@ footer div:last-child {
   color: white;
   font-family: 'Lato', sans-serif;
   font-size: 1.2vw;
+}
+
+.myFooter {
+  margin-top: 10px;
+  width: 70%;
+  height: 50px;
+}
+
+.myFooter p {
+  width: 60%;
+}
+
+.myFooter .brand a img {
+  border: none;
+  width: 30%;
+}
+
+.footer {
+  margin-top: 30px;
 }
