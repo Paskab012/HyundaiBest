@@ -23,7 +23,7 @@ Simple website design made by the use of HTML, CSS and Javascript for completion
 
 ## Video Description
 
-Check this [Video](https://www.loom.com/share/8edb4922721b4152b97238a2bf260d1c) for demo presentation of the page.
+Check this [Video](https://www.loom.com/share/b671c641a1ae44beb402cda7233c8609)
 
 ## Authors
 
