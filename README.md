@@ -19,7 +19,7 @@ Simple website design made by the use of HTML, CSS and Javascript for completion
 
 ## Live Demo
 
-[Live Demo](https://kabika681.github.io/HyundaiBest/index.html)
+[Live Demo](https://paskab012.github.io/HyundaiBest/)
 
 ## Video Description
 
